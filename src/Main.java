@@ -1,10 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int resoult = charExpression(1);
+        int resoult = charExpression('d');
         System.out.println(resoult);
     }
 
     public static char charExpression(int a) {
-        return (char) ('d' + a);
+        char с = (char) ('d' + a);
+        return с;
     }
 }
